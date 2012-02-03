@@ -1,0 +1,21 @@
+body {
+	background-color: #fff;
+	font-family: 'Lucida Grande';
+}
+
+h1 {
+	font: italic normal 60px Georgia, "Times New Roman", Times, serif;
+	float: right;
+	color: #898989;
+}
+
+#PageDiv {
+	width: 700px;
+	position: relative;
+	margin: 12px auto;
+	font-size: 12px;
+}
+
+form {
+	padding: 12px 0;
+}

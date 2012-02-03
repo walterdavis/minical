@@ -1,14 +1,3 @@
-body {
-	background-color: #fff;
-	font-family: 'Lucida Grande';
-}
-
-h1 {
-	font: italic normal 60px Georgia, "Times New Roman", Times, serif;
-	float: right;
-	color: #898989;
-}
-
 table.cal td a {
 	background-color: #333;
 	color: #fff;
@@ -19,17 +8,6 @@ table.cal td a {
 
 table.cal td.today a {
 	color: #96dcfd;
-}
-
-#PageDiv {
-	width: 700px;
-	position: relative;
-	margin: 12px auto;
-	font-size: 12px;
-}
-
-form {
-	padding: 12px 0;
 }
 
 table.cal td, table.cal th {
@@ -56,7 +34,7 @@ table.cal {
 	border-bottom: 1px solid #ccc;
 }
 
-.previous, .next {
+table.cal .previous, table.cal .next {
 	cursor: pointer;
 }
 
@@ -76,13 +54,13 @@ table.cal td div div.tooltip {
 	box-shadow: 0px 2px 12px #333;
 }
 
-div.tooltip ul {
+table.cal div.tooltip ul {
 	list-style: none;
 	padding: 0;
 	margin: 0;
 }
 
-div.tooltip ul li {
+table.cal div.tooltip ul li {
 	list-style-type: none;
 	padding: 0;
 	margin: 0;
