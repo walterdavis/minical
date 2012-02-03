@@ -4,7 +4,7 @@ document.observe('dom:loaded',function(){
 			var y = parseInt(cal.readAttribute('data-year'),10);
 			var m = parseInt(cal.readAttribute('data-month'),10);
 			var d = new Date();
-			new Ajax.Updater(cal,'lib/cal.php',{
+			new Ajax.Updater(cal,'lib/minical.php',{
 				parameters:{
 					month:m, 
 					year:y

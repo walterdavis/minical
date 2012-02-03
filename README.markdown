@@ -16,6 +16,6 @@ The format is simple -- Date in ISO, a space, a URL that the date should link to
 2011-03-11 http://store.apple.com Apple Store
 ~~~~
 
-Edit the `lib/cal.php` line 2 to reflect the time zone you want to use, unless you are in the US East Coast time zone.
+Edit the `lib/minical.php` line 2 to reflect the time zone you want to use, unless you are in the US East Coast time zone.
 
 Add script tags for prototype.js and cal.js to the head of your HTML page, and link to the stylesheet `css/minical.css`. Create a DIV on your page with the classname `minical`. Preview in a browser, and you should see a tiny calendar in the page replacing any contents of that DIV. If you want to add a "sorry, you don't have JavaScript enabled" message, just put that inside the DIV.minical element.
