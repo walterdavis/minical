@@ -7,6 +7,8 @@ Naturally, it only works on a Unix or Linux server, and since I'm a total Protot
 ##Instructions
 Upload the entire project to your server, and edit the `data/data.txt` files to reflect your own calendar. 
 
+The format is simple -- Date in ISO, a space, a URL that the date should link to, another space, and a title for the link. If you create more than one link for any given day, the JavaScript will create a multi-select widget to expose them for the user.
+
 ~~~~
 2011-03-11 http://apple.com Apple, Inc.
 2011-03-05 http://walterdavisstudio.com Walter Davis Studio
