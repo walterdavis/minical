@@ -1,0 +1,100 @@
+body {
+	background-color: #fff;
+	font-family: 'Lucida Grande';
+}
+
+h1 {
+	font: italic normal 60px Georgia, "Times New Roman", Times, serif;
+	float: right;
+	color: #898989;
+}
+
+table.cal td a {
+	background-color: #333;
+	color: #fff;
+	padding: 2px 4px;
+	display: block;
+	text-decoration: none;
+}
+
+table.cal td.today a {
+	color: #96dcfd;
+}
+
+#PageDiv {
+	width: 700px;
+	position: relative;
+	margin: 12px auto;
+	font-size: 12px;
+}
+
+form {
+	padding: 12px 0;
+}
+
+table.cal td, table.cal th {
+	padding: 2px 4px;
+	text-align: center;
+}
+
+table.cal td {
+	border-top: 1px solid #ccc;
+}
+
+table.cal td.today {
+	background-color: #c3d7fd;
+}
+
+table.cal td div {
+	position: relative;
+	overflow: visible;
+	padding: 0;
+	margin: -2px -4px;
+}
+
+table.cal {
+	border-bottom: 1px solid #ccc;
+}
+
+.previous, .next {
+	cursor: pointer;
+}
+
+table.cal td div div.tooltip {
+	position: absolute;
+	z-index: 100;
+	padding: 9px;
+	background-color: rgb(0,0,0);/*fallback for IE*/
+	background-color: rgba(0,0,0,0.7);
+	top: 15px;
+	left: 0;
+	-webkit-border-radius: 9px;
+	-moz-border-radius: 9px;
+	border-radius: 9px;
+	-webkit-box-shadow: 0px 2px 12px #333;
+	-moz-box-shadow: 0px 2px 12px #333;
+	box-shadow: 0px 2px 12px #333;
+}
+
+div.tooltip ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+div.tooltip ul li {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	white-space: nowrap;
+}
+table.cal td div div.tooltip ul li a {
+	background-color: transparent;
+	margin-left: -9px;
+	margin-right: -9px;
+	padding-left: 9px;
+	padding-right: 9px;
+}
+table.cal td div div.tooltip ul li a:hover {
+	background-color: #8b8b8b;
+}
