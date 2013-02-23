@@ -42,7 +42,7 @@ class MiniCal{
 	 */
 	function generate_calendar(){
 		$this->miniCalLinks();
-		$calendar = shell_exec('/usr/bin/env cal' . $this->strDate);
+		$calendar = shell_exec('/usr/bin/env cal -h ' . $this->strDate);
 		$lines = explode("\n",$calendar);
 		$calendar = '<table class="cal" cellspacing="0">
 			<tr><th class="previous">&lt;</th><th colspan="5">' . trim(array_shift($lines)) . '</th><th class="next">&gt;</th></tr>
